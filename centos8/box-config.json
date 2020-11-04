@@ -32,7 +32,7 @@
       "http_directory": "http",
       "iso_urls": [
         "CentOS-8.1.1911-x86_64-dvd1.iso",
-        "http://mirror.mobap.edu/centos/8.1.1911/isos/x86_64/CentOS-8.1.1911-x86_64-dvd1.iso"
+        "http://mirror.mobap.edu/centos/8.2.2004/isos/x86_64/CentOS-8.2.2004-x86_64-dvd1.iso"
       ],
       "iso_checksum": "sha256:3ee3f4ea1538e026fff763e2b284a6f20b259d91d1ad5688f5783a67d279423b",
       "ssh_username": "vagrant",
@@ -64,11 +64,6 @@
       {
         "output": "builds/{{.Provider}}-centos8.box",
         "type": "vagrant"
-      },
-      {
-        "type": "vagrant-cloud",
-        "box_tag": "geerlingguy/centos8",
-        "version": "{{user `version`}}"
       }
     ]
   ]
