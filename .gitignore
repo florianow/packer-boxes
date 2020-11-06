@@ -4,3 +4,4 @@
 iso/*
 .vagrant/*
 centos6/roles/*
+centos8/builds
